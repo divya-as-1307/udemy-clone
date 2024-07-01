@@ -10,7 +10,7 @@ Technologies Used
 HTML5: For the structure of the web pages.
 CSS: For styling and layout.
 
-You can visit My website via the below link:
+You can visit My website
 
 
 Thank you for visiting my webiste!!!
