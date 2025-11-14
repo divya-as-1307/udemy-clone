@@ -263,6 +263,7 @@ body {
     .sale-image__offer{
         top: 5%;
         left: 5%;
+        padding: 4px;
     }
 
 }
