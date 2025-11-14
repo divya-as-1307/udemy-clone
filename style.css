@@ -32,7 +32,7 @@ body {
     display: flex;
     gap: 10px;
     align-items: center;
-    
+
 }
 
 .navbar__s2 input {
@@ -57,11 +57,11 @@ body {
     cursor: pointer;
 }
 
-.mylearning{
+.mylearning {
     position: relative;
 }
 
-.mylearning__popup{
+.mylearning__popup {
     position: absolute;
     border: solid black 1px;
     border-radius: 10px;
@@ -74,9 +74,9 @@ body {
     display: none;
 }
 
- .mylearning:hover .mylearning__popup{
+.mylearning:hover .mylearning__popup {
     display: block;
- }
+}
 
 .categories {
     display: flex;
@@ -104,38 +104,42 @@ body {
 
 }
 
-.sale-image{
-     position: relative;
+.sale-image {
+    position: relative;
 }
 
-.sale-image__offer{
-    border: solid black 2px;
+.sale-image__offer {
+    border: solid black 0.5px;
+    border-radius: 10px;
     width: 450px;
     padding: 10px;
     position: absolute;
     top: 20%;
     left: 10%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-.sale-image__offer p{
+
+.sale-image__offer p {
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: white;
 }
 
-.sale-image__offer button{
+.sale-image__offer button {
     border: none;
     padding: 10px;
     border-radius: 8px;
     background-color: #A435F0;
     color: white;
     font-weight: bold;
-   
+
 }
 
-.sale-image__offer button:hover{
-    background-color:#892DE1 ;
-     cursor: pointer;
+.sale-image__offer button:hover {
+    background-color: #892DE1;
+    cursor: pointer;
 }
+
 .recommended {
     padding: 10px;
 }
@@ -178,41 +182,43 @@ body {
 
 }
 
-.topics__container P:hover{
-    background-color: rgb(162, 162, 162) ;
+.topics__container P:hover {
+    background-color: rgb(162, 162, 162);
     border: solid black 2px;
     cursor: pointer;
 }
 
-.popular{
+.popular {
     padding: 10px;
 }
 
-.popular__container{
+.popular__container {
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
     justify-content: space-between;
 }
 
-.footer{
+.footer {
     padding: 30px;
     background-color: black;
     color: white;
 }
 
-.footer__one{
+.footer__one {
     display: flex;
-    
-    gap:10px;
+
+    gap: 10px;
 }
-.footer__one p{
+
+.footer__one p {
     margin: 20px;
 }
-.footer__two{
+
+.footer__two {
     display: flex;
     justify-content: space-between;
     margin: 20px;
     align-items: center;
-    
+
 }
